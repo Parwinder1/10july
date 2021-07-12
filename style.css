@@ -1,17 +1,17 @@
-.one {
+body {
+  background-color: powderblue;
+}
+.menu {
   margin: 0;
   padding: 0;
   width: 200px;
   position: fixed;
-  height: 80%;
+  height: 100%;
   overflow: auto;
   font-size: 30px;
 }
-img{
-  margin-left: 15%;
-  margin-top: 15%;
-}
- .h1{
+
+ .h2{
  margin-left: 25%;
  font-weight: bold;
  color: green;
@@ -19,31 +19,41 @@ img{
  font-size: 50px;
  text-shadow: 1px 3px #900C3F;
 }
-.subh,.lead{
+.address,.info{
   margin-top: 2%;
  margin-left: 25%;
  font-weight: bold;
  font-size: 30px;
  color: grey  ;
 }
-.one a {
+.menu a {
   display: orange;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
+  color: blue;
+  padding: 13px;
+ text-decoration-line: none;
 }
-.one a.active {
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+.bottom {
+  position: relative;
+  text-align: center;
+   overflow: auto;
+  font-size: 30px;
+  margin: 30px;
+}
+
+.menu a.active {
   background-color: lightgreen ;
   color: blue;
 }
 /* Links on mouse-over */
-.one a:hover:not(.active) {
-  background-color: #555;
+.menu a:hover:not(.active) {
+  background-color: #507a18;
   color: grey;
-}
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 800px;
-}
+  transform: scale(1.5);
 }
